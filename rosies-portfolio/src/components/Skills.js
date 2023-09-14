@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/banner-bg.png"
 
 export const Skills = () => {
 
@@ -39,17 +39,17 @@ export const Skills = () => {
                         <p>Enter a paragraph here</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider"> 
                         <div className="item">
-                            <img src={meter2} alt="Image"/>
+                            <img src={meter2} alt="Image1"/>
                             <h5>Software Development</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter2} alt="Image"/>
+                            <img src={meter2} alt="Image2"/>
                             <h5>UX/UI Design</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter2} alt="Image"/>
+                            <img src={meter2} alt="Image3"/>
                             <h5>Business Analysis</h5>
                         </div>
                         
@@ -59,7 +59,6 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} alt="Image" />
 
         </section>
       )
