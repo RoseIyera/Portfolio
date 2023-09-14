@@ -1,14 +1,16 @@
+import { useState, useEffect } from "react";
 import {Container,Row,Col} from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
-import { useState, useEffect } from "react";
+
 
 
 export const Banner  =() =>{
 
     const[loopNum, setLoopNum]= useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Software Developer","UX/UI Developer","UX/UI Design"];
+    const toRotate = ["Software Developer"];
+    const [index, setIndex] = useState(1);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -53,7 +55,7 @@ export const Banner  =() =>{
                 <Row>
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline" >Welcome to my portfolio.</span>
-                        <h1>{`Hey there, I am Rose Iyera.`}<span className="wrap">Software Developer</span></h1>
+                        <h1>{`Hey there, I am Rose Iyera.`}<span className="wrap">{text}</span></h1>
                         <p>Insert my about here</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                     </Col>
