@@ -4,7 +4,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/Happy.png";
 import projImg2 from "../assets/img/lucid.png";
 import projImg3 from "../assets/img/level.png";
-import projImg6 from "../assets/img/Freecode.png";
+import projImg4 from "../assets/img/Freecode.png";
+import projImg5 from "../assets/img/pac.png";
 import TrackVisibility from 'react-on-screen';
 
 export const  Projects = () =>{
@@ -27,10 +28,11 @@ export const  Projects = () =>{
           imgUrl: projImg3,
         },
         {
-          title: "FreeCodeCamp Projects",
+          title: "Pacman",
           description: "Development",
-          imgUrl: projImg6,
+          imgUrl: projImg5,
         },
+       
       ];
 
       return (

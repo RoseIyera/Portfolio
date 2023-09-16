@@ -38,6 +38,12 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>My skill sets lie within the following categories</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider"> 
+
+                        <div className="item">
+                            <img src={meter1} alt="Image1"/>
+                            <h5>Web Development</h5>
+                        </div>
+
                         <div className="item">
                             <img src={meter1} alt="Image1"/>
                             <h5>Software Development</h5>
@@ -46,6 +52,42 @@ export const Skills = () => {
                         <div className="item">
                             <img src={meter2} alt="Image2"/>
                             <h5>UX/UI Design & Development</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Image1"/>
+                            <h5>SQL</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Image1"/>
+                            <h5>R</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Image1"/>
+                            <h5>C#</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Image1"/>
+                            <h5>Typescript</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Image1"/>
+                            <h5>Javascript</h5>
+                        </div>
+
+                        <div className="item">
+                            <img src={meter1} alt="Image1"/>
+                            <h5>Outsystems</h5>
+                        </div>
+
+
+                        <div className="item">
+                            <img src={meter1} alt="Image1"/>
+                            <h5>Agile Methodologies</h5>
                         </div>
 
                         <div className="item">

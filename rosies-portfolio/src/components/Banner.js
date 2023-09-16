@@ -61,12 +61,11 @@ export const Banner  =() =>{
                       <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                         <span className="tagline" >Welcome to my portfolio.</span>
                         <h1>{`Hey there, I am Rose Iyera. `}<span className="wrap">{text}</span></h1>
-                        <p>I am a BCom Informatics and Information Systems Graduate from the University of Pretoria. I am a
-                          hard-working, optimistic young woman who enjoys dealing with new challenges and learning from
-                          them. My degree has equipped me with various skill sets which I believe would make me quite a
-                          diverse candidate.
+                        <p>I am passionate about building inovative solutions that transform organisations and drive positive change.
+                          My experience lies within design, development and analysis skills which I obtained through my formal
+                          education, past internships and my current internship.
                           </p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                        <button onClick={() => console.log('connect')}>Let's connect<a href="https://www.linkedin.com/in/rose-iyera-0550681b1/"><ArrowRightCircle size={25}/></a></button>
                         </div>}
                     </TrackVisibility>
                     </Col>
