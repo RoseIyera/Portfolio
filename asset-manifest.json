@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/roseiyera/App.js/static/css/main.3c6eac62.css",
-    "main.js": "/roseiyera/App.js/static/js/main.7aea77ce.js",
+    "main.css": "/roseiyera/App.js/static/css/main.f976c390.css",
+    "main.js": "/roseiyera/App.js/static/js/main.6f7ac21c.js",
     "static/js/787.da340fe9.chunk.js": "/roseiyera/App.js/static/js/787.da340fe9.chunk.js",
     "static/media/contact.svg": "/roseiyera/App.js/static/media/contact.df7aae6fbd4fe1c98ce6e419f285541e.svg",
     "static/media/header-img.svg": "/roseiyera/App.js/static/media/header-img.b4f1c62e3c8906ab71bdd810c16300f0.svg",
@@ -15,6 +15,7 @@
     "static/media/Roboto-Regular.ttf": "/roseiyera/App.js/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Roboto-Bold.ttf": "/roseiyera/App.js/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
     "static/media/Happy.png": "/roseiyera/App.js/static/media/Happy.32509f255e86c34ee138.png",
+    "static/media/pac.png": "/roseiyera/App.js/static/media/pac.59760d37e18e0e3d2e70.png",
     "static/media/revicons.eot": "/roseiyera/App.js/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/roseiyera/App.js/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/roseiyera/App.js/static/media/revicons.e8746a624ed098489406.woff",
@@ -22,16 +23,15 @@
     "static/media/meter1.svg": "/roseiyera/App.js/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/roseiyera/App.js/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "static/media/nav-icon3.svg": "/roseiyera/App.js/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
-    "static/media/icons8-github (6).svg": "/roseiyera/App.js/static/media/icons8-github (6).81e6b1c785d45f0aeea4a55ff48af7dd.svg",
+    "static/media/hub.svg": "/roseiyera/App.js/static/media/hub.f7d613661359deff4feebc1f0553ceb4.svg",
     "index.html": "/roseiyera/App.js/index.html",
     "static/media/nav-icon1.svg": "/roseiyera/App.js/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/nav-icon2.svg": "/roseiyera/App.js/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.3c6eac62.css.map": "/roseiyera/App.js/static/css/main.3c6eac62.css.map",
-    "main.7aea77ce.js.map": "/roseiyera/App.js/static/js/main.7aea77ce.js.map",
+    "main.f976c390.css.map": "/roseiyera/App.js/static/css/main.f976c390.css.map",
+    "main.6f7ac21c.js.map": "/roseiyera/App.js/static/js/main.6f7ac21c.js.map",
     "787.da340fe9.chunk.js.map": "/roseiyera/App.js/static/js/787.da340fe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c6eac62.css",
-    "static/js/main.7aea77ce.js"
+    "static/css/main.f976c390.css",
+    "static/js/main.6f7ac21c.js"
   ]
 }
