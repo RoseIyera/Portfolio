@@ -566,6 +566,10 @@ letter-spacing: 0.5px;
 margin-top: 20px;
 }
 
+.arrow{
+  padding-bottom: 20px;
+}
+
 .App {
   text-align: center;
 }

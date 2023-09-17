@@ -61,7 +61,7 @@ export const Contact = () => {
             <Col size={12} sm={6} className="px-1">
             <h2>Get In Touch</h2>
               <label>Name</label>
-              <input type="text" name="user_name" placeholder="Jhone Doe" />
+              <input type="text" name="user_name" />
             </Col>
 
             <Col size={12} sm={6} className="px-1">
