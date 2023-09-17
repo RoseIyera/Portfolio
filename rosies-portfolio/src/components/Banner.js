@@ -61,10 +61,10 @@ export const Banner  =() =>{
                       <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                         <span className="tagline" >Welcome to my portfolio</span>
                         <h1>{`Hey there, I am Rose Iyera. `}<span className="wrap">{text}</span></h1>
-                        <p>My journey in software development has been fasinating, if anything it reminds me of my favorite poem "The Road not Taken" by Robert Frost .
+                        <p>My journey in software development has been fascinating, if anything it reminds me of my favourite poem "The Road Not Taken" by Robert Frost.
                           I have a habit of dabbling into directions that even I couldn't predict and so I am very excited to see where the next turn
-                          in my journey will lead me. I am currently in the process of spreading my wings in the world of tech.I invite you to stick around
-                          for the ride, fasten your seat belts, let's go!
+                          in my journey will lead me. I am currently in the process of spreading my wings in the world of tech. I invite you to stick around
+                          for the ride, fasten your seat belts, and let's go!
                           </p>
                         <button onClick={() => console.log('connect')}>Let's connect<a href="https://www.linkedin.com/in/rose-iyera-0550681b1/"><ArrowRightCircle size={25}/></a></button>
                         </div>}
