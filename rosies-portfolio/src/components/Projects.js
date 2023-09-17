@@ -83,12 +83,12 @@ export const  Projects = () =>{
                         <h5> BCom Informatics & Information systems - University of Pretoria</h5> 
                         <h6>Program Educational Objectives</h6>
                             <p>
-                                Informatics graduates have a broad business understanding and real world perspective to be Information Systems enablers in organizations and understand the strategic significance of Information Systems.
-                                Possess strong analytical and critical thinking skills to be able to apply both traditional and old concepts and skills.
-                                Is Able to design and implement information technology solutions that enhance organizational performance.
-                                Exhibits strong ethical principles and have good interpersonal communication and team skills.
-                                Hold skills in basic statistical and mathematical models to be used in analyzing data.
-                                Understands that systems consist of people, hardware, software and data.
+                                Informatics graduates have a broad business understanding and a real world perspective to be Information Systems enablers in organizations as they understand the strategic significance of Information Systems.
+                                They possess strong analytical and critical thinking skills to be able to apply both traditional and old concepts and skills.
+                                They are able to design and implement information technology solutions that enhance organizational performance.
+                                They exhibit strong ethical principles and have good interpersonal communication and team skills.
+                                They hold skills in basic statistical and mathematical models that can be used for analyzing data.
+                                They understands that systems consist of people, hardware, software and data.
                             </p>                       
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
