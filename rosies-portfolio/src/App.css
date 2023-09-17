@@ -38,6 +38,21 @@ body {
   font-family: 'Roboto', sans-serif !important;
 }
 
+ul {
+  list-style: none; /* Remove default bullet */
+  text-align: center; /* Center-align the list */
+}
+
+li::before {
+  content: '\2022'; /* Use a bullet character (Unicode) */
+  margin-right: 10px; /* Space between bullet and text */
+  
+}
+
+a{
+  color:purple;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -53,6 +68,7 @@ p, a, li, button, ul {
 
 a:hover {
   text-decoration: none;
+  color:purple;
 }
 
 img {
@@ -95,7 +111,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #E8B4B8;
+  background: #E97CAE;
   height:70px;
 }
 nav.navbar a.navbar-brand {

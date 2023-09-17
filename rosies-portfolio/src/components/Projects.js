@@ -50,20 +50,18 @@ export const  Projects = () =>{
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>Projects</h2>
-                    <p> Here are a few projects that I have worked on during my studies and past internships. I encourage you to check out my guithub too and to contact me for any more information regarding
-                      these projects.
-                    </p>
+                    <h2>Projects & Background </h2>
+              
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                       <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                         <Nav.Item>
-                          <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                          <Nav.Link eventKey="first">Projects</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                          <Nav.Link eventKey="second">Education</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                          <Nav.Link eventKey="third">Certifications</Nav.Link>
                         </Nav.Item>
                       </Nav>
                       <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -82,9 +80,28 @@ export const  Projects = () =>{
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
-                        <p> Stick around the journey to find out what other projects I end up dabbling in.</p>                        </Tab.Pane>
+                        <h5> BCom Informatics & Information systems - University of Pretoria</h5> 
+                        <h6>Program Educational Objectives</h6>
+                            <p>
+                                Informatics graduates have a broad business understanding and real world perspective to be Information Systems enablers in organizations and understand the strategic significance of Information Systems.
+                                Possess strong analytical and critical thinking skills to be able to apply both traditional and old concepts and skills.
+                                Is Able to design and implement information technology solutions that enhance organizational performance.
+                                Exhibits strong ethical principles and have good interpersonal communication and team skills.
+                                Hold skills in basic statistical and mathematical models to be used in analyzing data.
+                                Understands that systems consist of people, hardware, software and data.
+                            </p>                       
+                        </Tab.Pane>
                         <Tab.Pane eventKey="third">
-                        <p> Stick around the journey to find out what other projects I end up dabbling in.</p>                        </Tab.Pane>
+                        <ul>
+                        <li><a href="https://freecodecamp.org/certification/BeeRo/front-end-development-libraries" >Front End Development Libraries</a></li>
+                        <li><a href="https://freecodecamp.org/certification/BeeRo/responsive-web-design">Responsive Web Design</a></li>
+                        <li><a href="https://www.hackerrank.com/certificates/64d629fec8e2">SQL Advanced</a></li>
+                        <li><a href="https://freecodecamp.org/certification/BeeRo/javascript-algorithms-and-data-structures">JavaScript Algorithms and Data Structures</a></li>
+                        <li><a href="https://www.sololearn.com/Certificate/1092-24434076/jpg">Angular+NestJS</a></li>
+                        <li><a href="https://www.sololearn.com/certificates/course/en/24434076/1080/landscape/png">C#</a></li>
+                  
+                    </ul>                       
+                    </Tab.Pane>
                       </Tab.Content>
                     </Tab.Container>
                   </div>}
