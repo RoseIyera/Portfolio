@@ -1,9 +1,9 @@
 import { Container,Col,Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/per1.svg";
+import meter2 from "../assets/img/soft.svg";
+import meter3 from "../assets/img/per3.svg";
 import colorSharp from "../assets/img/banner-bg.png"
 
 export const Skills = () => {
@@ -40,7 +40,7 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="skill-slider"> 
 
                         <div className="item">
-                            <img src={meter1} alt="Image1"/>
+                            <img src={meter3} alt="Image1"/>
                             <h5>Web Development</h5>
                         </div>
 
@@ -50,7 +50,7 @@ export const Skills = () => {
                         </div>
 
                         <div className="item">
-                            <img src={meter2} alt="Image2"/>
+                            <img src={meter1} alt="Image2"/>
                             <h5>UX/UI Design & Development</h5>
                         </div>
 
@@ -60,7 +60,7 @@ export const Skills = () => {
                         </div>
 
                         <div className="item">
-                            <img src={meter1} alt="Image1"/>
+                            <img src={meter2} alt="Image1"/>
                             <h5>R</h5>
                         </div>
 
@@ -75,7 +75,7 @@ export const Skills = () => {
                         </div>
 
                         <div className="item">
-                            <img src={meter1} alt="Image1"/>
+                            <img src={meter2} alt="Image1"/>
                             <h5>Javascript</h5>
                         </div>
 
@@ -86,12 +86,12 @@ export const Skills = () => {
 
 
                         <div className="item">
-                            <img src={meter1} alt="Image1"/>
+                            <img src={meter2} alt="Image1"/>
                             <h5>Agile Methodologies</h5>
                         </div>
 
                         <div className="item">
-                            <img src={meter2} alt="Image3"/>
+                            <img src={meter1} alt="Image3"/>
                             <h5>Data Analysis</h5>
                         </div>
                         

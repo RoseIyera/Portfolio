@@ -49,8 +49,10 @@ li::before {
   
 }
 
-a{
-  color:purple;
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -624,3 +626,5 @@ margin-top: 20px;
     transform: rotate(360deg);
   }
 }
+
+
