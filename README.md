@@ -13,7 +13,7 @@ Stay updated with my professional journey on <a href="www.linkedin.com/in/rose-i
 
 <h3>🔭Current Endeavors</h3>
 <ul>
-  <li>I am currently trying to improve my problem-solving skills by completing <a href="https://leetcode.com/roseiyera/">LeetCode</a>challenges daily.</li>
+  <li>I am currently trying to improve my problem-solving skills by completing <a href="https://leetcode.com/roseiyera/">LeetCode</a> challenges daily.</li>
   <li>I am currently working as a Software Development Graduate Consultant at a consulting company.</li>
 </ul>
 <hr/>
